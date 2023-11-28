@@ -21,6 +21,7 @@
   </head>
   <body>
     <!-- header -->
+
     <header class="page-header">
       <div class="container container-header">
         <nav class="page-navigation">
@@ -60,7 +61,9 @@
           </button>
         </div>
       </section>
+
       <!-- section 2 -->
+
       <section class="section-two">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
@@ -77,7 +80,6 @@
                 the perfect and creative solution.
               </p>
             </li>
-
             <li class="paragraph">
               <div class="icon">
                 <svg class="icon-feature" width="64" height="64">
@@ -90,7 +92,6 @@
                 within the shortest possible time.
               </p>
             </li>
-
             <li class="paragraph">
               <div class="icon">
                 <svg class="icon-feature" width="64" height="64">
@@ -103,7 +104,6 @@
                 growth opportunities and minimize risk.
               </p>
             </li>
-
             <li class="paragraph">
               <div class="icon">
                 <svg class="icon-feature" width="64" height="64">
@@ -119,18 +119,18 @@
           </ul>
         </div>
       </section>
+
       <!-- section 3 Our Team -->
+
       <section class="section-three">
         <div class="container">
           <h2 class="section-three-title">Our Team</h2>
-
           <ul class="menu-three">
             <li class="section-foto">
               <img src="./images/TeamCard1.jpg" alt="Mark Guerre" width="264" />
               <div class="team-content">
                 <h3 class="name">Mark Guerrero</h3>
                 <p class="type-of-employment">Product Designer</p>
-
                 <ul class="social-links">
                   <li class="social-links-item">
                     <a class="social-links-link" href="" target="_blank"
@@ -163,7 +163,6 @@
                 </ul>
               </div>
             </li>
-
             <li class="section-foto">
               <img src="./images/TeamCard2.jpg" alt="Tom Ford" width="264" />
               <div class="team-content">
@@ -201,7 +200,6 @@
                 </ul>
               </div>
             </li>
-
             <li class="section-foto">
               <img
                 src="./images/TeamCard3.jpg"
@@ -243,7 +241,6 @@
                 </ul>
               </div>
             </li>
-
             <li class="section-foto">
               <img
                 src="./images/TeamCard4.jpg"
@@ -288,7 +285,9 @@
           </ul>
         </div>
       </section>
+
       <!-- section 4 Our portfolio -->
+
       <section class="section-four">
         <div class="container">
           <h2 class="title-portfolio">Our Portfolio</h2>
@@ -411,7 +410,9 @@
         </div>
       </section>
     </main>
+
     <!-- Footer -->
+
     <footer class="footer">
       <div class="container container-footer">
         <div class="text-logo-footer">
@@ -478,73 +479,97 @@
       </div>
     </footer>
 
-    <!--MODAL--> 
-    <div class="container-modal backdrop">
-        <div class="modal-window">
-            <button class="button-close" type="button">
-                <svg class="icon-close" width="8" height="8">
-                    <use href="./images/icon.svg#icon-cross">
-                    </use>
-                </svg>
-            </button>
-            <p class="modal-window-paragraph">Leave your contacts and we will call you back</p>
-            <form class="contact-form" name="contact-form"  autocomplete="off">
-                <div class="contact-form-div">
-                    <label class="contact-form-label" for="user-name">
-                        Name
-                    </label>
-                    <div class="input-div">
-                        <input class="contact-form-input" type="text" id="user-name" name="user-name" />
-                        <svg class="input-icon" width="18" height="24">
-                            <use href="./images/icon.svg#icon-person">
-                            </use>
-                        </svg>
-                    </div>
-                </div>
-                <div class="contact-form-div">
-                    <label class="contact-form-label" for="input-tel">
-                        Phone
-                    </label>
-                    <div class="input-div">
-                        <input class="contact-form-input" type="tel" name="contact_tel" id="input-tel" />
-                        <svg class="input-icon" width="18" height="24">
-                            <use href="./images/icon.svg#icon-phone">
-                            </use>
-                        </svg>
-                    </div>
-                </div>
-                <div class="contact-form-div">
-                    <label class="contact-form-label" for="input-email">
-                        Email
-                    </label>
-                    <div class="input-div"><input class="contact-form-input" type="email" name="email"
-                            id="input-email" /><svg class="input-icon" width="18" height="24">
-                            <use href="./images/icon.svg#icon-email">
-                            </use>
-                        </svg>
-                    </div>
-                </div>
-                 <div class="contact-textarea-div">
-                    <label class="contact-form-label" for="user-comment">
-                        Comment
-                    </label>
-                    <textarea class="contact-form-textarea" name="user-comment" rows="5" placeholder="Text input"
-                        id="user-comment"></textarea>
-                </div>
+    <!--MODAL-->
 
-                <div class="contact-form-checkbox-div">
-                    <input type="checkbox" name="user-privacy" value="true" id="user-privacy"
-                        class="contact-form-checkbox-input visually-hidden">
-                    <label for="user-privacy" class="contact-form-checkbox-label">
-                        <span class="contact-form-checkbox-label-span"><svg class="checkbox-icon" width="10" height="8">
-                                <use class="checkbox-icon" href="./images/icon.svg#icon-vector">
-                                </use>
-                            </svg>
-                        </span>I accept the terms and conditions of the 
-                        <a class="contact-form-link" href="" target="_blank">Privacy Policy</a>
-                         </label>
-                        </div>
-                        <button class="contact-form-button" type="submit">Send</button>
-                      </form>
-                    </body>
-                    </html>
+    <div class="backdrop container-modal">
+      <div class="modal-window">
+        <button class="button-close" type="button">
+          <svg class="icon-close" width="8" height="8">
+            <use href="./images/icon.svg#icon-cross"></use>
+          </svg>
+        </button>
+        <p class="modal-window-paragraph">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="contact-form" name="contact-form" autocomplete="off">
+          <div class="contact-form-div">
+            <label class="contact-form-label" for="user-name"> Name </label>
+            <div class="input-div">
+              <input
+                class="contact-form-input"
+                type="text"
+                id="user-name"
+                name="user-name"
+              />
+              <svg class="input-icon" width="18" height="24">
+                <use href="./images/icon.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="contact-form-div">
+            <label class="contact-form-label" for="input-tel"> Phone </label>
+            <div class="input-div">
+              <input
+                class="contact-form-input"
+                type="tel"
+                name="contact_tel"
+                id="input-tel"
+              />
+              <svg class="input-icon" width="18" height="24">
+                <use href="./images/icon.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="contact-form-div">
+            <label class="contact-form-label" for="input-email"> Email </label>
+            <div class="input-div">
+              <input
+                class="contact-form-input"
+                type="email"
+                name="email"
+                id="input-email"
+              /><svg class="input-icon" width="18" height="24">
+                <use href="./images/icon.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="contact-textarea-div">
+            <label class="contact-form-label" for="user-comment">
+              Comment
+            </label>
+            <textarea
+              class="contact-form-textarea"
+              name="user-comment"
+              rows="5"
+              placeholder="Text input"
+              id="user-comment"
+            ></textarea>
+          </div>
+          <div class="contact-form-checkbox-div">
+            <input
+              type="checkbox"
+              name="user-privacy"
+              value="true"
+              id="user-privacy"
+              class="contact-form-checkbox-input visually-hidden"
+            />
+            <label for="user-privacy" class="contact-form-checkbox-label">
+              <span class="contact-form-checkbox-label-span"
+                ><svg class="checkbox-icon" width="10" height="8">
+                  <use
+                    class="checkbox-icon"
+                    href="./images/icon.svg#icon-vector"
+                  ></use>
+                </svg> </span
+              >I accept the terms and conditions of the
+              <a class="contact-form-link" href="" target="_blank"
+                >Privacy Policy</a
+              >
+            </label>
+          </div>
+          <button class="contact-form-button" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
